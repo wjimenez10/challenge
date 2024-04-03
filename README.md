@@ -10,7 +10,7 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
 
 1.- Clonar el repositorio
 
-git clone https://github.com/wjimenez10/url
+    git clone https://github.com/wjimenez10/url
 
 
 2.- Para construir los docker se deberá ejecutar los siguientes comandos:
