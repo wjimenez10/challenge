@@ -2,7 +2,7 @@
 
    ## **Instalación y configuración del entorno MyAPP** ##
 
-Este repositorio contiene los archivos necesarios para configurar y ejecutar el Challenge ML en cualquier servidor Linux utilizando Docker.
+Este repositorio contiene los archivos necesarios para configurar y ejecutar el Challenge ML en cualquier servidor Linux utilizando Docker. Es requisito tener instalado en el ambiente Docker a fin de poder generar las imagenes docker.
 
 **Pasos para configurar y ejecutar el Challenge**
 
@@ -11,8 +11,6 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
 git clone https://github.com/wjimenez10/url
 
 2.- Requisito para la instalación de Docker
-
-Es requisito tener instalado en el ambiente Docker y Docker-compose a fin de generar las imagenes docker.
 
 3.- Para construir los docker se deberá ejecutar los siguientes comandos:
    
