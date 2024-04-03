@@ -1,9 +1,13 @@
 # Challenge ML
 
-   ## **Instalación y configuración del entorno MyAPP** ##
+## **Instalación y configuración del entorno MyAPP** ##
 
-Este repositorio contiene los archivos necesarios para configurar y ejecutar el Challenge ML en cualquier servidor Linux utilizando Docker. Es requisito tener instalado en el ambiente Docker a fin de poder generar las imagenes docker.
+Este repositorio contiene los archivos necesarios para configurar y ejecutar el Challenge ML en cualquier servidor Linux utilizando Docker. 
 
+## Requisitos previos a la instalación del ambiente. ##
+
+### 1.- Tener instalado el ambiente docker en el sistema ###
+### 2.- Tener instalado python3 ###
 
 **Pasos para configurar y ejecutar el Challenge**
 
