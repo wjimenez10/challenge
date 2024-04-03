@@ -55,7 +55,7 @@ Iniciar contenedor:
     docker start mymariadb
     docker start myapp
 
-6.- En caso de requerir analizar los logs de los contenedores se podrá ejecutar:
+5.- En caso de requerir analizar los logs de los contenedores se podrá ejecutar:
 
     docker logs mymariadb
     docker logs myapp
@@ -67,7 +67,7 @@ Ejemplo:   docker logs myapp
  * Running on all addresses (0.0.0.0)
  * Running on https://172.17.0.3:5000
 
-**7.- Instalación desatendida**
+##**Instalación desatendida**##
 
 Se ejecuta el instalador el cual realiza todos los pasos anteriores, genera el build de los docker, incia los contenedores.
 
