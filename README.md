@@ -10,6 +10,8 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
 
 2.- Tener instalado python3
 
+
+
 **Pasos para configurar y ejecutar el Challenge**
 
 
