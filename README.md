@@ -2,7 +2,7 @@
 
 ## ** Descripción ** ##
 
-Para consumir los datos del endpoint propuesto, se construyeron dos imagenes docker a fin de tener separados el ambiente de la base de datos y el de la aplicación.
+Para consumir los datos del endpoint propuesto en el challenge, se construyeron dos imagenes docker a fin de tener separados el ambiente de la base de datos y el de la aplicación.
 
 (mymariadb): Este contenedor tiene una instancia de la base de datos relacional MariaDB con la base de datos y tabla creada. 
 
