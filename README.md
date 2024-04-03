@@ -6,8 +6,8 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
 
 ## Requisitos previos a la instalación del ambiente. ##
 
-#### 1.- Tener instalado el ambiente docker en el sistema ####
-#### 2.- Tener instalado python3 ####
+1.- Tener instalado el ambiente docker en el sistema
+2.- Tener instalado python3
 
 **Pasos para configurar y ejecutar el Challenge**
 
