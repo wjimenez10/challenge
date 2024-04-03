@@ -17,7 +17,7 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
 
 1.- Tener instalado el ambiente docker en el sistema
 
-2.- Tener instalado python3 y Flask
+2.- Tener instalado python3.
 
 
 
