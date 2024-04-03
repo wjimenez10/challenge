@@ -67,5 +67,15 @@ Ejemplo:   docker logs myapp
  * Running on all addresses (0.0.0.0)
  * Running on https://172.17.0.3:5000
 
+7.- Instalación desatendida
+
+Se ejecuta el instalador el cual realiza todos los pasos anteriores, genera el build de los docker, incia los contenedores.
+
+    ./install.sh
+
+Para el challenge la URL a utilizar en el browser es la siguiente: 
+
+**https://172.17.0.3:5000**
+
 
 7.-  # ENJOY #
