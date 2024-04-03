@@ -28,7 +28,7 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
     git clone https://github.com/wjimenez10/url
 
 
-2.- Para construir los docker se deberá ejecutar los siguientes comandos:
+2.- Para construir los docker se deberán ejecutar los siguientes comandos:
    
     docker build -t mymariadb -f Dockerfile-MariaDB .
     docker build -t myapp .
