@@ -1,9 +1,9 @@
 FROM python:3.9-slim
 
-# Establece el directorio de trabajo en /app
+# Establece el directorio de trabajo en /app dentro del contenedor
 WORKDIR /app
 
-# Crear la carpeta para los certificados de MariaDB
+# Crear la carpeta para los certificados de MariaDB. Genere nuevos certificados para mariadb.
 RUN mkdir -p certs/mariadb-certs
 
 # Copia el script de la aplicación Python al contenedor

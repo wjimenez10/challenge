@@ -1,6 +1,6 @@
 FROM mariadb:latest
 
-# Copiar el script SQL para la creación de la base de datos y el usuario
+# Copia el script SQL para la creación de la base de datos y el usuario. En este archivo esta la estructura de la base y los grants
 COPY usuarios_db.sql /docker-entrypoint-initdb.d/
 
 # Copiar los archivos de certificado al contenedor
@@ -9,10 +9,8 @@ COPY certs/mariadb-certs/cert.csr /etc/mysql/cert.csr
 COPY certs/mariadb-certs/cert.crt /etc/mysql/cert.crt
 
 RUN chown -R mysql:mysql /etc/mysql/
+# En my.cnf agregue la configuración de SSL
 COPY ./my.cnf /etc/mysql/my.cnf
-
-# Modificar el archivo de configuración de MariaDB para habilitar SSL/TLS
-# RUN printf "\n[mysqld]\nssl-ca=/etc/mysql/cert.crt\nssl-cert=/etc/mysql/cert.crt\nssl-key=/etc/mysql/cert.key\nssl=on" >> /etc/mysql/my.cnf
 
 # Establecer la variable de entorno para inicializar la base de datos
 ENV MYSQL_ROOT_PASSWORD=root
