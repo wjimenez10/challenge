@@ -26,7 +26,7 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
 
 1.- Clonar el repositorio
 
-    git clone (https://github.com/wjimenez10/challenge.git)
+    git clone https://github.com/wjimenez10/challenge.git
 
 
 2.- Para construir los docker se deberán ejecutar los siguientes comandos:
