@@ -24,7 +24,7 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
     docker run -d --name mymariadb -p 3306:3306 mymariadb
     docker run -d --name myapp --link mymariadb myapp
 
-**NOTA: Es importante iniciar primero el contenedor mymariadb conteniendo la base de datos y luego la aplicación, ya que la aplicación intentará guardar la información del endpoint en la base de datos.**
+**NOTA: Es mandatorio iniciar primero el contenedor mymariadb quien contiene la base de datos y luego la aplicación, ya que la aplicación intentará guardar la información del endpoint en la base de datos.**
 
 
 4.- En el caso de necesitar realizar un stop/start de los contenedores se deberá ejecutar los siguientes comandos:
