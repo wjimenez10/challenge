@@ -76,7 +76,7 @@ Se ejecuta el instalador el cual realiza todos los pasos anteriores, genera el b
 
 Para el challenge la URL a utilizar en el browser es la siguiente: 
 
-**https://172.17.0.3:5000**
+**https://172.17.0.3:5000/usuarios**
 
 
 
