@@ -60,4 +60,12 @@ Iniciar contenedor:
     docker logs mymariadb
     docker logs myapp
 
+Ejemplo:   docker logs myapp
+
+ * Serving Flask app 'challenge_MELI_app_v21'
+ * Debug mode: on
+ * Running on all addresses (0.0.0.0)
+ * Running on https://172.17.0.3:5000
+
+
 7.-  # ENJOY #
