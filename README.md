@@ -9,5 +9,5 @@ Pasos para configurar y ejecutar el Challenge
 
 1.- Clonar el repositorio
 
-git clone [<URL_del_repositorio>](https://github.com/wjimenez10/challenge)
+git clone https://github.com/wjimenez10/challengeML
 
