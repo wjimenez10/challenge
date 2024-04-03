@@ -1,5 +1,13 @@
 # Challenge ML
 
+## ** Descripción ** ##
+
+Para consumir los datos del endpoint propuesto, se construyeron dos imagenes docker a fin de tener separados el ambiente de la base de datos y el de la aplicación.
+
+(mymariadb): Este contenedor tiene una instancia de la base de datos relacional MariaDB con la base de datos y tabla creada. 
+
+(myapp): Aplicación desarrollada en Python y Flask. Este contenedor contiene la aplicación Flask, la cual proporciona una API para acceder y manipular los datos. La aplicación Flask se ejecuta en el puerto 5000 y se comunica con la base de datos MySQL en el contenedor mymariadb para almacenar los datos. 
+
 ## **Instalación y configuración del entorno MyAPP** ##
 
 Este repositorio contiene los archivos necesarios para configurar y ejecutar el Challenge ML en cualquier servidor Linux utilizando Docker. 
