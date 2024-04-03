@@ -47,11 +47,11 @@ Este repositorio contiene los archivos necesarios para configurar y ejecutar el 
 Parar contenedor:
 
     docker stop mymariadb 
-    docker start mymariadb
+    docker stop myapp
 
 Iniciar contenedor:
 
-    docker stop myapp
+    docker start mymariadb
     docker start myapp
 
 6.- En caso de requerir analizar los logs de los contenedores se podrá ejecutar:
