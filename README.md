@@ -67,7 +67,7 @@ Ejemplo:   docker logs myapp
  * Running on all addresses (0.0.0.0)
  * Running on https://172.17.0.3:5000
 
-##Instalación desatendida##
+## Instalación desatendida ##
 
 Se ejecuta el instalador el cual realiza todos los pasos anteriores, genera el build de los docker, incia los contenedores.
 
