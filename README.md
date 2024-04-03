@@ -4,27 +4,30 @@
 
 Este repositorio contiene los archivos necesarios para configurar y ejecutar el Challenge ML en cualquier servidor Linux utilizando Docker. Es requisito tener instalado en el ambiente Docker a fin de poder generar las imagenes docker.
 
+
 **Pasos para configurar y ejecutar el Challenge**
+
 
 1.- Clonar el repositorio
 
 git clone https://github.com/wjimenez10/url
 
-2.- Requisito para la instalación de Docker
 
-3.- Para construir los docker se deberá ejecutar los siguientes comandos:
+2.- Para construir los docker se deberá ejecutar los siguientes comandos:
    
     docker build -t mymariadb -f Dockerfile-MariaDB .
     docker build -t myapp .
 
-4.- Iniciar los contenedores
+
+3.- Iniciar los contenedores
 
     docker run -d --name mymariadb -p 3306:3306 mymariadb
     docker run -d --name myapp --link mymariadb myapp
 
 **NOTA: Es importante iniciar primero el contenedor mymariadb conteniendo la base de datos y luego la aplicación, ya que la aplicación intentará guardar la información del endpoint en la base de datos.**
 
-5.- En el caso de necesitar realizar un stop/start de los contenedores se deberá ejecutar los siguientes comandos:
+
+4.- En el caso de necesitar realizar un stop/start de los contenedores se deberá ejecutar los siguientes comandos:
 
 Parar contenedor:
 
