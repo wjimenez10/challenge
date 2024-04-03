@@ -1,6 +1,6 @@
 # Challenge ML
 
-## ** Descripción ** ##
+## Descripción ##
 
 Para consumir los datos del endpoint propuesto en el challenge, se construyeron dos imagenes docker a fin de tener separados el ambiente de la base de datos y el de la aplicación.
 
