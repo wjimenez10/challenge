@@ -71,8 +71,7 @@ Ejemplo:   docker logs myapp
 
 Se ejecuta el instalador el cual realiza todos los pasos anteriores, genera el build de los docker, incia los contenedores.
 
-    chmod +x install.sh
-    
+    chmod +x install.sh    
     ./install.sh
 
 Para el challenge la URL a utilizar en el browser es la siguiente: 
